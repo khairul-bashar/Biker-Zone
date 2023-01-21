@@ -11,3 +11,6 @@ body {
 .nav-item a {
   font-weight: 500;
 }
+.rating-icons {
+  width: 20px;
+}
