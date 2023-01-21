@@ -2,6 +2,10 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+/* utilites  */
+.biker-zone-bg-ligher-red {
+  background-color: #ff00005e;
+}
 
 /* nav bar styles */
 .nav-item a {

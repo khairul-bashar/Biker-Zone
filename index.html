@@ -14,8 +14,8 @@
     <!-- Custom css -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
-    <header class="container-md pt-3">
+  <body class="container-md">
+    <header class="pt-3">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand fw-semibold" href="#">Bike Dekho</a>
@@ -61,7 +61,7 @@
                 class="col-12 col-md-6 d-flex justify-content-center align-items-center"
               >
                 <div>
-                  <h1>Ride-on R15 V4 with Smile</h1>
+                  <h1 class="fw-bold">Ride-on R15 V4 with Smile</h1>
                   <p>
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor
                     do amet sint. Velit officia consequat duis enim velit
@@ -134,7 +134,10 @@
           data-bs-target="#carouselExample"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span
+            class="carousel-control-prev-icon biker-zone-bg-ligher-red"
+            aria-hidden="true"
+          ></span>
           <span class="visually-hidden">Previous</span>
         </button>
         <button
@@ -143,16 +146,84 @@
           data-bs-target="#carouselExample"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span
+            class="carousel-control-next-icon biker-zone-bg-ligher-red"
+            aria-hidden="true"
+          ></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
     </header>
 
     <main>
-      <section></section>
+      <!-- hot bike section -->
+      <section class="text-start text-md-center">
+        <h1>Fetured Bikes In This Year</h1>
+        <p class="text-danger">Best bike collection</p>
+        <hr class="w-25 me-auto ms-auto text-danger" />
+        <div class="row p-5 g-5">
+          <div class="col-12 col-sm-6 col-md-4">
+            <img class="img-fluid" src="./images/feature-bike.jpg" alt="" />
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <img class="img-fluid" src="./images/feature-bike.jpg" alt="" />
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <img class="img-fluid" src="./images/feature-bike.jpg" alt="" />
+          </div>
+        </div>
+      </section>
 
-      <section></section>
+      <section class="py-5">
+        <h1 class="text-center py-3">Latest News</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 p-3">
+              <img src="./images/bike-1.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-semibold">Ducati XDIAVEL S-73</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Lacus, fermentum amet faucibus sed id nisi lectus at.
+                </p>
+                <button class="btn btn-danger">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 p-3">
+              <img src="./images/bike-2.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-semibold">Motorcycles & Scooters</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Lacus, fermentum amet faucibus sed id nisi lectus at.
+                </p>
+                <button class="btn btn-danger">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 p-3">
+              <img src="./images/bike-3.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-semibold">2023 Honda CBR500R</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Lacus, fermentum amet faucibus sed id nisi lectus at.
+                </p>
+                <button class="btn btn-danger">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h1 class="text-center">
+          Happy <span class="text-warning">Clients says</span>
+        </h1>
+      </section>
     </main>
 
     <footer></footer>
